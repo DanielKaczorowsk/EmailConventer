@@ -14,9 +14,9 @@
 # Template
 	  $template = new Template;
 	  $this->query->template = $template
-	 						 ->file($this->query->template) -> primary html
-							 ->title('Przykładowy Email')
-	             ->data($data) -> use database @startforeach @endforeach
-							 ->contents($this->query->contentTemplate) -> content html
-						 	 ->render();
- EmailConventer use primary settings template.
+	 	->file($this->query->template) -> primary html
+		->title('Przykładowy Email')
+	        ->data($data) -> use database @startforeach @endforeach
+		->contents($this->query->contentTemplate) -> content html
+		->render();
+ 	EmailConventer use primary settings template.
