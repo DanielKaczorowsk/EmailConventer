@@ -11,7 +11,7 @@
 		->TSL(true)
 		->send();
  	This is settings on gmail.
-# Template
+# Template Email in file EmailConventer
 	  $template = new Template;
 	  $this->query->template = $template
 	 	->file($this->query->template) -> primary html
